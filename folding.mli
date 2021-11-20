@@ -1,0 +1,1 @@
+val fold_constants : Ast.block -> unit

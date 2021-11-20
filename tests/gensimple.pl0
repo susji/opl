@@ -1,0 +1,17 @@
+VAR x, y, z;
+
+PROCEDURE rest;
+VAR a, b, c, d;
+BEGIN
+  a := z - 100;
+  b := x * y * (z + a);
+  c := b / ((-x) * y * z);
+  d := -c
+END;
+
+BEGIN
+  x := 1;
+  y := x + 2;
+  z := 15 / 3;
+  CALL rest
+END.

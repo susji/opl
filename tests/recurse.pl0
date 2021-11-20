@@ -1,0 +1,15 @@
+VAR x, acc;
+
+PROCEDURE recurse;
+VAR local;
+BEGIN
+  local := x;
+  acc := acc + x;
+  x := x - 1;
+  IF x > 0 THEN CALL recurse
+END;
+
+BEGIN
+  x := 10;
+  CALL recurse
+END.

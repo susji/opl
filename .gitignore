@@ -1,0 +1,8 @@
+*.cmx
+*.cmi
+*.o
+opl
+_build
+*.native
+myocamlbuild.ml
+setup.ml

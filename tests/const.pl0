@@ -1,0 +1,7 @@
+CONST const = 0;
+VAR var;
+
+BEGIN
+  var := 1;
+  const := 2
+END.

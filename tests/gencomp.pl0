@@ -1,0 +1,10 @@
+VAR x, y, z;
+
+BEGIN
+  x := 1;
+  y := 2;
+  z := 0;
+  IF x = 2 THEN BEGIN
+    z := 10
+  END
+END.
