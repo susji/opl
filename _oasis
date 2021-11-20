@@ -3,7 +3,7 @@ Name:        opl
 Version:     1.0
 Synopsis:    A rough approximation of a PL/0 compiler for x86_64
 Authors:     susji
-License:     FreeBSD
+License:     GPL-3.0
 Executable opl
   Path:       .
   CompiledObject: native
