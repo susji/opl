@@ -6,6 +6,18 @@ proper ML nature, as this is really an OCaml exercise. The goal is to
 successfully compile the attached `test.pl0` which should be an original
 example from Wirth's book.
 
+# usage
+
+The following assumes you have `oasis`, `ocaml`, and a suitable x86-64
+compiler installed.
+
+	$ make
+	$ cat tests/test.pl0 | bin/opl -w -c
+	$ cc -static out.s -o test
+	$ ./test
+
+There are a few other parameters, see `bin/opl -help` for more.
+
 # Bits and pieces
 
 Lots of unnecessary recursion is being done as all AST visitors operate on
